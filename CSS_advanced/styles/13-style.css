@@ -9,17 +9,17 @@ body {
 	font-weight: var(--font-weight-regular);
 	line-height: var(--line-height-base);
 }
-a[href]:not(:empty) {
+a:link {
 	color: var(--text-color);
 	text-decoration: none;
 }
-a[href]:not(:empty):visited {
+a:visited {
 	font-style: italic;
 }
-a[href]:not(:empty):hover {
+a:hover {
 	text-decoration: underline;
 }
-a[href]:not(:empty):active {
+a:active {
 	background-color: var(--color-light-grey);
 }
 .visually-hidden {
