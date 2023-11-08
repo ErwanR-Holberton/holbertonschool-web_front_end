@@ -276,7 +276,7 @@ ul.row {
 	position: relative;
 	overflow: hidden;
 }
-.card-work .card-image .image {
+.card-work .card-image img {
 	height: 30rem;
 	width: 1rem;
 	object-fit: cover;
@@ -314,4 +314,4 @@ ul.row {
 }
 .card-work:hover .card-title a::after {
 	opacity: 1;
-  }
+}
